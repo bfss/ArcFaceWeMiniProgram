@@ -1,0 +1,12 @@
+<!--pages/profile/profile.wxml-->
+<view class="container">
+  <text class="welcome-title">欢迎登录</text>
+  
+  <image class="user-photo" src="{{userAvatar}}" mode="aspectFill"></image>
+  
+  <view class="info-row">
+    <text>姓名：</text>
+    <text class="name-text">{{userName}}</text>
+  </view>
+
+</view>

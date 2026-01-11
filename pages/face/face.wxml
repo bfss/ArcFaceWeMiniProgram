@@ -1,0 +1,5 @@
+<!--pages/face/face.wxml-->
+<view class="container">
+  <camera device-position="front" flash="off" style="width: 300px; height: 300px; border-radius: 50%;"></camera>
+  <view>人脸识别中，请正对摄像头...</view>
+</view>
